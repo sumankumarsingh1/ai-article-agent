@@ -1,0 +1,53 @@
+{
+  "models": [
+    {
+      "name": "google/gemini-2.0-flash-exp (OpenRouter)",
+      "type": "openrouter",
+      "params": {
+        "model": "google/gemini-2.0-flash-exp:free",
+        "base_url": "https://openrouter.ai/api/v1"
+      }
+    },    
+    {
+      "name": "qwen/qwen3-coder (OpenRouter)",
+      "type": "openrouter",
+      "params": {
+        "model": "qwen/qwen3-coder:free",
+        "base_url": "https://openrouter.ai/api/v1"
+      }
+    },    
+    {
+      "name": "mistral (OpenRouter)",
+      "type": "openrouter",
+      "params": {
+        "model": "mistralai/mistral-7b-instruct:free",
+        "base_url": "https://openrouter.ai/api/v1"
+      }
+    },    
+    {
+      "name": "mistral (OpenRouter)",
+      "type": "openrouter",
+      "params": {
+        "model": "mistralai/mistral-7b-instruct:free",
+        "base_url": "https://openrouter.ai/api/v1"
+      }
+    },    
+    {
+      "name": "Nvidia (OpenRouter)",
+      "type": "openrouter",
+      "params": {
+        "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "base_url": "https://openrouter.ai/api/v1"
+      }
+    },
+    {
+      "name": "llama3 (local)",
+      "type": "ollama",
+      "params": {
+        "model": "llama3",
+        "base_url": "http://localhost:11434"
+      }
+    }
+
+  ]
+}

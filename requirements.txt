@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-ollama
+langchain_openai
+openai
+gradio
+requests
+beautifulsoup4
+ddgs
+python-dotenv
+typing-extensions

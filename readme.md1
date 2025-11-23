@@ -1,0 +1,14 @@
+
+
+### Folder Structure
+<pre>
+ai-article-agent/
+│
+├── .env                  # contains API_KEY=sk-or-v1-xxxx
+├── app.py
+├── llm_loader.py
+├── tools.py
+├── models.json
+├── requirements.txt
+└── outputs/
+</pre>
